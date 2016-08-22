@@ -8,7 +8,7 @@ result:
   autoredeploy: true
   image: 'docker/example-voting-app-result:latest'
   ports:
-    - '80:80'
+    - '81:80'
   restart: always
 lb:
   autoredeploy: true
